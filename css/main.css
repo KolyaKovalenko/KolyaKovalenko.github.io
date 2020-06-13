@@ -1,0 +1,64 @@
+body{
+    background-image: url(background.png);
+    color: whitesmoke;
+}
+#menu{
+    background-color: grey;
+    border: black solid 3px;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;   
+}
+#menu a{
+    margin: 5px;
+}
+#menu a:hover{
+    color: black;
+}
+#Introduction{
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+    background-color: grey;
+    border: black solid 3px;
+    text-align: center;
+    line-height: 110%;
+    height: auto;
+}
+img{
+    float: right;
+    border: black solid 2px;
+    height: 300px;
+    margin: 5px;
+}
+.Chapter{
+    background-color: rgb(46, 57, 61);
+    border: gray solid 5px;
+    border-radius: 3px;
+    margin: 35px 15px;
+    box-shadow: 0 0 5px darkgrey;
+    padding: 5px;
+    line-height: 140%;
+}
+#back{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    border: black solid 4px;
+    background-color: grey;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 15px;
+    box-shadow: 0 0 5px black;
+}
+#back:hover{
+    text-decoration-line: underline;
+    
+}
+h2{
+    margin-top: 5px;
+}
